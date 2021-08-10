@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  container {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-top: 0.063rem solid black;
+    position: absolute;
+  }
+  
+  #toImage {
+    position: relative;
+    top: 6.25rem;
+    margin-left: 8.75rem;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  span {
+    display: block;
+    font-size: 1.563rem;
+  }
+  
+  header, blockquote {
+    font-family: 'Abril Fatface', cursive;
+    color: grey;
+  }
+
+  .firstDiv {
+    margin-top: 13rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+
+  p, ul {
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+  
+  ul {
+    padding: 1.25rem 2.5rem;
+  }
+  
+  h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 0.938rem;
+    line-height: 1.8;
+    text-transform: uppercase;
+    padding: 1.25rem; 
+  }
+
+  session, ul.session {
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+    font-weight: 700;
+    line-height: 10px;
+  }
+
+  ul.session {
+    line-height: 1;
+    font-style: normal;
+  }
+
+  #first {
+    color: white;
+    height: 6.25rem;
+    width: 100%;
+    background-color: #484848;
+    font-size: 1.875rem;
+    margin: 1.875rem 0;
+    padding-left: 1.25rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  #second {
+    color: white;
+    height: 12.5rem;
+    width: 100%;
+    background-color: #484848;
+    font-size: 2.5rem;
+    margin: 0.625rem auto;
+    padding-left: 1.25rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  #third {
+    color: white;
+    height: 12.5rem;
+    width: 100%;
+    background-color: #484848;
+    font-size: 1.875rem;
+    line-height: 1.8;
+    margin: 0.625rem auto;
+    padding-left: 1.25rem;
+    display: flex;
+    align-items: center;
+    
+    position: relative;
+  }
+  
+  blockquote::before {
+    content: '”';
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+  }
+  
+  hr {
+    height: 0.125rem;
+    border-width: 0;
+    color: black;
+    background-color: black;
+  }
